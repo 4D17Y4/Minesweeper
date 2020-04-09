@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/high_score_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".highScore_Activity"
+    android:background="@drawable/background"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffff"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="HIGH SCORES"
+            android:padding="10dp"
+            android:gravity="center"></TextView>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/s1"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/gold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:text="1.    0"
+            android:textColor="#ffff"
+            ></TextView>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/s2"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/silver"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="2.    0"
+            android:textColor="#ffff"
+            ></TextView>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/s3"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bronze"
+            android:layout_margin="10dp"
+            android:text="5.    0"
+            android:textColor="#ffff"
+            ></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

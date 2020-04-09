@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".game_Activity">
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="#ffff"
+        android:background="@drawable/game_tab"
+        android:layout_margin="@dimen/margin"
+
+        android:weightSum="2.5">
+
+        <TextView
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:id="@+id/timer_text"
+            android:layout_margin="@dimen/margin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/textSize"
+            android:layout_height="wrap_content"
+
+            android:text="00:00:00"></TextView>
+        <TextView
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:layout_margin="@dimen/margin"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:text="Flags:">
+
+    </TextView>
+        <TextView
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:id="@+id/flags"
+            android:layout_margin="@dimen/margin"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="10">
+
+        </TextView>
+        <Button
+            android:id="@+id/i"
+            android:layout_margin="@dimen/margin"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_bg"
+            android:text="i"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            ></Button>
+
+
+
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/LL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/tab"
+    android:gravity="center"
+    >
+    <GridView
+        android:verticalSpacing="2dp"
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin">
+
+
+
+
+    </GridView>
+</LinearLayout>
+</RelativeLayout>

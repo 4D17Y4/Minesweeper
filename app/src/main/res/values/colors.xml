@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#00A2E8</color>
+    <color name="text_color">#4E00FF</color>
+    <color name="tile_color">#BEE6FF00</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#00A2E8</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#DCA505</color>
+    <color name="silver">#959595</color>
+    <color name="bronze">#773B1C</color>
+    <color name="yellow">#ffff00</color>
+</resources>
