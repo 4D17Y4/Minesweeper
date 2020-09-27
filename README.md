@@ -1,5 +1,5 @@
 # Minesweeper
-a simple minesweeper game
+A simple minesweeper game
 ## Main Screen
 ![](Annotation%202020-05-31%20200155.jpg)
 ## New Game
@@ -10,8 +10,6 @@ a simple minesweeper game
 ![](4.jpg)
 
 
-  Score is calculated on time basis.
+**Score is calculated on time basis.**
 ## High Score
 ![](5.jpg)
-
-PS: Color changed to yellow :`)
